@@ -1,0 +1,7 @@
+
+.footer {padding: 25px 0; text-align: center;}
+.footer ul {margin-bottom: 20px;}
+.footer li {position: relative;display: inline; padding: 0 7px 0 10px;}
+.footer li:before {content: '';width: 1px;height: 20px;background: #ccc;position:absolute;left: 0;top: 0;}
+.footer li:first-child::before {width: 0;height: 0;}
+.footer .w3c {margin-top: 15px;}
